@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A24681B171B36060012321C /* icon-billing.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A246819171B36060012321C /* icon-billing.png */; };
+		1A24681C171B36060012321C /* icon-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A24681A171B36060012321C /* icon-setting.png */; };
+		1A68ECFE171BB9E700629D41 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A68ECFA171BB8BC00629D41 /* Logo.png */; };
+		1A68ECFF171BB9EE00629D41 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A68ECFC171BB8C400629D41 /* Logo@2x.png */; };
 		1AA5D8E2171915240016C4A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA5D8E1171915240016C4A3 /* UIKit.framework */; };
 		1AA5D8E4171915240016C4A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA5D8E3171915240016C4A3 /* Foundation.framework */; };
 		1AA5D8E6171915240016C4A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA5D8E5171915240016C4A3 /* CoreGraphics.framework */; };
@@ -18,9 +22,15 @@
 		1AA5D8F8171915240016C4A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA5D8F7171915240016C4A3 /* Default-568h@2x.png */; };
 		1AA5D8FB171915240016C4A3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA5D8F9171915240016C4A3 /* MainStoryboard.storyboard */; };
 		1AA5D8FE171915240016C4A3 /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA5D8FD171915240016C4A3 /* BSViewController.m */; };
+		1AEAE48A1719FDFE00D6F057 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAE4891719FDFE00D6F057 /* SettingViewController.m */; };
+		1AEAE4CA171A119F00D6F057 /* SettingsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAE4C9171A119F00D6F057 /* SettingsResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A246819171B36060012321C /* icon-billing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-billing.png"; sourceTree = "<group>"; };
+		1A24681A171B36060012321C /* icon-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-setting.png"; sourceTree = "<group>"; };
+		1A68ECFA171BB8BC00629D41 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../Logo.png; sourceTree = "<group>"; };
+		1A68ECFC171BB8C400629D41 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo@2x.png"; path = "../Logo@2x.png"; sourceTree = "<group>"; };
 		1AA5D8DE171915240016C4A3 /* BillSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA5D8E1171915240016C4A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AA5D8E3171915240016C4A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,10 @@
 		1AA5D8FA171915240016C4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1AA5D8FC171915240016C4A3 /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
 		1AA5D8FD171915240016C4A3 /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		1AEAE4881719FDFE00D6F057 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		1AEAE4891719FDFE00D6F057 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		1AEAE4C8171A119F00D6F057 /* SettingsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsResult.h; sourceTree = "<group>"; };
+		1AEAE4C9171A119F00D6F057 /* SettingsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A68ECF5171B94A600629D41 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1A68ECFC171BB8C400629D41 /* Logo@2x.png */,
+				1A68ECFA171BB8BC00629D41 /* Logo.png */,
+				1AA5D8F3171915240016C4A3 /* Default.png */,
+				1AA5D8F5171915240016C4A3 /* Default@2x.png */,
+				1AA5D8F7171915240016C4A3 /* Default-568h@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		1AA5D8D5171915240016C4A3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +109,11 @@
 		1AA5D8E7171915240016C4A3 /* BillSplit */ = {
 			isa = PBXGroup;
 			children = (
-				1AA5D8F0171915240016C4A3 /* BSAppDelegate.h */,
-				1AA5D8F1171915240016C4A3 /* BSAppDelegate.m */,
 				1AA5D8F9171915240016C4A3 /* MainStoryboard.storyboard */,
+				1AEAE4C8171A119F00D6F057 /* SettingsResult.h */,
+				1AEAE4C9171A119F00D6F057 /* SettingsResult.m */,
+				1AEAE4881719FDFE00D6F057 /* SettingViewController.h */,
+				1AEAE4891719FDFE00D6F057 /* SettingViewController.m */,
 				1AA5D8FC171915240016C4A3 /* BSViewController.h */,
 				1AA5D8FD171915240016C4A3 /* BSViewController.m */,
 				1AA5D8E8171915240016C4A3 /* Supporting Files */,
@@ -96,13 +124,15 @@
 		1AA5D8E8171915240016C4A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A246819171B36060012321C /* icon-billing.png */,
+				1A24681A171B36060012321C /* icon-setting.png */,
+				1AA5D8F0171915240016C4A3 /* BSAppDelegate.h */,
+				1AA5D8F1171915240016C4A3 /* BSAppDelegate.m */,
 				1AA5D8E9171915240016C4A3 /* BillSplit-Info.plist */,
 				1AA5D8EA171915240016C4A3 /* InfoPlist.strings */,
 				1AA5D8ED171915240016C4A3 /* main.m */,
 				1AA5D8EF171915240016C4A3 /* BillSplit-Prefix.pch */,
-				1AA5D8F3171915240016C4A3 /* Default.png */,
-				1AA5D8F5171915240016C4A3 /* Default@2x.png */,
-				1AA5D8F7171915240016C4A3 /* Default-568h@2x.png */,
+				1A68ECF5171B94A600629D41 /* images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +194,10 @@
 				1AA5D8F6171915240016C4A3 /* Default@2x.png in Resources */,
 				1AA5D8F8171915240016C4A3 /* Default-568h@2x.png in Resources */,
 				1AA5D8FB171915240016C4A3 /* MainStoryboard.storyboard in Resources */,
+				1A24681B171B36060012321C /* icon-billing.png in Resources */,
+				1A24681C171B36060012321C /* icon-setting.png in Resources */,
+				1A68ECFE171BB9E700629D41 /* Logo.png in Resources */,
+				1A68ECFF171BB9EE00629D41 /* Logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +211,8 @@
 				1AA5D8EE171915240016C4A3 /* main.m in Sources */,
 				1AA5D8F2171915240016C4A3 /* BSAppDelegate.m in Sources */,
 				1AA5D8FE171915240016C4A3 /* BSViewController.m in Sources */,
+				1AEAE48A1719FDFE00D6F057 /* SettingViewController.m in Sources */,
+				1AEAE4CA171A119F00D6F057 /* SettingsResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +335,7 @@
 				1AA5D903171915240016C4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
